@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="content-container">
+    <h1>Page Not Found</h1>
+    <p>{{ message }}</p>
+    <a href="{% url 'student_profiles' %}" class="btn btn-primary">Back to Student List</a>
+</div>
+{% endblock %}

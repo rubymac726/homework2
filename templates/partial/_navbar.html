@@ -1,0 +1,10 @@
+{% load static %}
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="{% url 'student_profiles' %}" class="nav-link">Student Profiles</a>
+        <a href="{% url 'academic_results' %}" class="nav-link">Academic Records</a>
+        <a href="{% url 'student_report' student_id='0' %}" class="nav-link">Student Reports</a>
+        <a href="{% url 'manage_promotions' %}" class="nav-link">Manage Promotion</a>        
+    </div>
+</nav>
